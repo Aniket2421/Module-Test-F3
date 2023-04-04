@@ -1,0 +1,80 @@
+/* Set up a CSS variable for primary color to be used throughout */
+:root {
+    --primary-color: #2c3e50;
+  }
+  
+  /* Style for the container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  /* Style for the form */
+ 
+
+  /* Style for the current image container */
+  #current-image-container {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+  
+  
+  #current-image-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  #current-image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Style for the search history */
+  #search-history {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  #search-history li {
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 18%;
+
+  }
+
+  .container-2{
+    text-align: center;
+  }
+
+  #search-history li:hover {
+    text-decoration: underline;
+    background-color: rgb(80, 148, 236);
+
+  }
+  button[type="submit"]:hover {
+    background-color: rgb(80, 148, 236);
+    cursor: pointer;
+  }
+  #search-history li:hover {
+    text-decoration: underline;
+    background-color: rgb(80, 148, 236);
+
+  }
+  #search-form {
+    display: flex;
+    margin: 20px 0;
+}
+
+#search-form label {
+    margin-right: 10px;
+}
